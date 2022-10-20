@@ -1,0 +1,32 @@
+html,body{
+    display: flex;
+    margin: 10;
+    height: 100%;
+    flex-direction: column;
+    background-color: beige;
+}
+#listas {
+    margin: 10;
+    background-color: rgb(118, 201, 227);
+    color: rgb(0, 0, 0);
+ }
+
+ /*Listas desorganizada*/
+
+ .container {
+    display: flex;
+    margin: 10;
+    height: 20%;
+    flex-direction: column;
+    background-color: rgb(40, 160, 225);
+    color: rgb(0, 0, 0);
+ }
+
+ .pie_pagina{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    background-color: blueviolet;
+    color: black;
+ }
+ 

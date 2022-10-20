@@ -4,36 +4,25 @@
     <meta charset="UTF-8"> <!--META DATOS-->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Mi primer pagina web</title>
-    <style>
- #Lista {
-    background-color: aqua;
- };
- #titulo {
-    background-color: rgb(26, 255, 0);
- };
- .conBorde{
-    border-color: aquamarine;
-    border: 10px solid;
- };
-
-    </style>
-
+    <p></p>
 </head>
 <body>
     
     <header>
         <nav>
-         <div class="container">
+         <div>
             <aside>
-                <ul>
-                    <li>Principal</li>
-                    <li>Informacion</li>
+                <ul id="listas">
+                    <li>Inicio</li>
+                    <li>Nosotros</li>
                     <li>Contacto</li>
-                    <li>Iniciar sesion</li>
                 </ul>   
         </nav>
     </header>
+
+
     <header>
         <nav>
          <div id="Lista" class="container">
@@ -44,17 +33,21 @@
                     <li>item 3</li>
                     <li>item 4</li>
                 </ul>   
-        </nav>
+        </div>
+            </nav>
     </header>
             </aside>
+            <div id="contenedor_principal" class="contenedor">
             <section>
                 <h1 id="titulo">Titulo de mi pagina</h1>
-                <img src="/APP_v2/APP/Imagenes/imagen.jpeg" alt="Imagen de matematicas" height="200" width="200">
-                <img src="/APP_v2/APP/Imagenes/imagen.jpeg" alt="Imagen de matematicas" height="200" width="200">
-            </section>
+                <img src="/APP_v2/APP/Imagenes/imagen.jpeg" alt="Imagen de matematicas" height="200" width="200">            </section>
         </div>
-        <footer>
+
+
+        <footer class="pie_pagina">
             <p>Copyright de mi pagina</p>
         </footer>
+
+        
 </body>
 </html>
